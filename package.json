@@ -24,12 +24,6 @@
     "lib/**/*"
   ],
   "scripts": {
-    "build": "tsc",
-    "build-prepare": "rimraf lib",
-    "format": "prettier --write \"src/**/*.ts\"",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "prepare": "run-s format build-prepare build",
-    "test": "jest --config jestconfig.json"
   },
   "dependencies": {
     "@tauri-apps/api": "^1.0.2",
